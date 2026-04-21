@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0 24px; /* pushes everything away from left + right edges */
+}
+
 
     :root {
       --blue:   #175676;

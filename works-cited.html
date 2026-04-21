@@ -45,3 +45,18 @@
     </div>
   </div>
 </div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-logo">Gender &amp; Sports</div>
+  <p>Research Project &nbsp;·&nbsp; Sports &amp; Society &nbsp;·&nbsp; 2026</p>
+</footer>
+
+<script>
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
